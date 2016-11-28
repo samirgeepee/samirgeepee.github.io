@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Lovers+Quarrel');
+
+body {
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+}
+
+.ui.header.segment {
+  font-family: 'Lovers Quarrel', cursive;
+  font-size: 96px;
+  font-weight: 400;
+  color: white;
+}
+
+.ui.banner.segment {
+  padding: 1em 0em;
+  margin: 0em;
+}
+
+.ui.banner.segment .ui.description.container {
+  /*margin-top: 40px;*/
+  margin-bottom: 40px;
+}
+
+.ui.description.container > span, h1, h2 {
+  background: rgba(248, 248, 248, 0.8);
+  display: inline-block;
+  padding: 10px 40px 10px 10px;
+}
